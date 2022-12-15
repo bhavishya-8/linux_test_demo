@@ -1,5 +1,5 @@
 <?php
-
-print "This is a working server \n";
-
+print "<h2>PHP is Fun!</h2>";
+print "Hello world!<br>";
+print "I'm about to learn PHP!";
 ?>
