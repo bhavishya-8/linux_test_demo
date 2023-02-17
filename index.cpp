@@ -1,6 +1,5 @@
-#include <iostream>
-
-int main() {
-    std::cout << "Hello, world!" << std::endl;
-    return 0;
-}
+<html bgcolor="pink">
+<body>
+This is a html site testing.
+</body>
+</html>
