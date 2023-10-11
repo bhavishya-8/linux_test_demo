@@ -6,12 +6,13 @@ This project involves Dockerizing a WordPress application and optimizing the dat
 1. [Dockerization](#dockerization)
     - [Dockerfile](#dockerfile)
     - [Docker Compose](#docker-compose)
-2. [Database Optimization](#database-optimization)
-3. [Additional Notes](#additional-notes)
+2. [How to setup](#set-up)
+3. [Database Optimization](#database-optimization)
+4. [Additional Notes](#additional-notes)
+5. [Live Wordpress- Hosted on AWS](#Live-wordpress)
 
 
 ## Dockerization
-
 ### Dockerfile
 
 I started by creating a Dockerfile for WordPress, using the latest image of Wordpress.
@@ -30,6 +31,8 @@ ENV WORDPRESS_DB_NAME=my_wordpress_db
 # No need to start apache service as wordpress image already have the configuration for this function.
 
 ```
+
+### Docker Compose
 
 Then defined services and network in Docker Compose configuration:
 
@@ -71,6 +74,14 @@ networks:
 
 ```
 
+## Setup
+
+Make two files `Dockerfile` and `docker-compose`, then run the following command:
+
+```bash
+docker-compose up -d
+```
+Make sure that you are in the same directory in which the above files are present.
 
 ## Database Optimization
 
@@ -127,3 +138,9 @@ Also we can see our secret using following command:
 ```bash
 docker secret ls
 ```
+
+## Live Wordpress
+
+Please check my assignment using the following link:
+
+[Click here](http://13.233.190.208/wp-admin/install.php)
