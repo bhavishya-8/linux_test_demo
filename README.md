@@ -14,7 +14,7 @@ This project involves Dockerizing a WordPress application and optimizing the dat
 
 ### Dockerfile
 
-I start by creating a Dockerfile for WordPress, using the latest image of Wordpress.
+I started by creating a Dockerfile for WordPress, using the latest image of Wordpress.
 
 ```Dockerfile
 # Use the official WordPress image as the base image
