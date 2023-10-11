@@ -6,7 +6,7 @@ This project involves Dockerizing a WordPress application and optimizing the dat
 1. [Dockerization](#dockerization)
     - [Dockerfile](#dockerfile)
     - [Docker Compose](#docker-compose)
-2. [How to setup](#set-up)
+2. [How to setup](#setup)
 3. [Database Optimization](#database-optimization)
 4. [Additional Notes](#additional-notes)
 5. [Live Wordpress- Hosted on AWS](#Live-wordpress)
