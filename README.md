@@ -8,7 +8,7 @@ This project involves Dockerizing a WordPress application and optimizing the dat
     - [Docker Compose](#docker-compose)
 2. [Database Optimization](#database-optimization)
 3. [Additional Notes](#additional-notes)
-4. [References](#references)
+
 
 ## Dockerization
 
